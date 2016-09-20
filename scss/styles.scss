@@ -4,12 +4,34 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 /* Import Bootstrap */
 @import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
 
-body{background-color: orange;}
+$Red: #B4292E;
+$White: white;
+
+
 
 ul{
   list-style: none;
 
-   .social-media{
+  .social-media{
     display: inline-block;
+  }
+  .fa{
+    font-size: 40px;
+  }
+}
+
+div{
+  .button-holder{
+    display: inline-block;
+    text-transform: uppercase;
+    width: 24%;
+    background-color: $Red;
+
+  }
+  .subscribe{
+    color: black;
+  }
+  .button{
+    color: $White;
   }
 }

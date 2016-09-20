@@ -5808,12 +5808,21 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
-body {
-  background-color: orange; }
-
 ul {
   list-style: none; }
   ul .social-media {
     display: inline-block; }
+  ul .fa {
+    font-size: 40px; }
+
+div .button-holder {
+  display: inline-block;
+  text-transform: uppercase;
+  width: 24%;
+  background-color: #B4292E; }
+div .subscribe {
+  color: black; }
+div .button {
+  color: white; }
 
 /*# sourceMappingURL=styles.css.map */
