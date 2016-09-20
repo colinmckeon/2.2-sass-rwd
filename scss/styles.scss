@@ -1,0 +1,15 @@
+/* Bootstrap Variables */
+$icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
+
+/* Import Bootstrap */
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+
+body{background-color: orange;}
+
+ul{
+  list-style: none;
+
+   .social-media{
+    display: inline-block;
+  }
+}
