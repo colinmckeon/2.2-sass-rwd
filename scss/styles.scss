@@ -8,31 +8,89 @@ $Red: #B4292E;
 $White: white;
 
 
+body{
+  background: url('../skateboard-images/bg.jpg');
+  background-size: cover;
+}
 
 ul{
   list-style: none;
 
   .social-media{
     display: inline-block;
+
   }
   .fa{
     font-size: 40px;
   }
+  .button{
+    background-color: $Red;
+    text-align: center;
+    color: $White;
+    text-transform: uppercase;
+    padding: 10px;
+  /*FIX SHADOW*/  box-shadow: 10px 5px 5px black;
+  }
 }
 
 div{
-  .button-holder{
-    display: inline-block;
-    text-transform: uppercase;
-    width: 24%;
-    background-color: $Red;
-
-  }
   .subscribe{
     color: black;
   }
-  .button{
-    color: $White;
+
+  .mountain{
+    background: url('../skateboard-images/sk8er-4.png')no-repeat center center;
+    height: 221px;
   }
-  
+  .mullen{
+    background: url('../skateboard-images/sk8er-3.png')no-repeat center center;
+    height: 221px;
+  }
+  .caballero{
+    background: url('../skateboard-images/sk8er-1.png')no-repeat center center;
+    height: 221px;
+    background-size: cover;
+  }
+  .guerrero{
+    background: url('../skateboard-images/sk8er-2.png')no-repeat -335px center;
+    height: 442px;
+  }
+  .skaters{
+    border: 5px solid white;
+    position: relative;
+  }
+}
+
+h2{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  position: absolute;
+  color: $White;
+  text-transform: uppercase;
+  font-size: 52px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.top-logo{
+  background: url('../skateboard-images/top-image.png') no-repeat center -100px;
+  height: 350px;
+  position: relative;
+  background-size: cover;
+  border: 5px solid white;
+}
+
+.peralta {
+  position: relative;
+}
+.top-logo::before {
+  content: "";
+  background-image: url('../skateboard-images/grid.png');
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  opacity: .35;
 }

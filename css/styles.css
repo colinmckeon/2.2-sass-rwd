@@ -5808,21 +5808,73 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
+body {
+  background: url("../skateboard-images/bg.jpg");
+  background-size: cover; }
+
 ul {
   list-style: none; }
   ul .social-media {
     display: inline-block; }
   ul .fa {
     font-size: 40px; }
+  ul .button {
+    background-color: #B4292E;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+    /*FIX SHADOW*/
+    box-shadow: 10px 5px 5px black; }
 
-div .button-holder {
-  display: inline-block;
-  text-transform: uppercase;
-  width: 24%;
-  background-color: #B4292E; }
 div .subscribe {
   color: black; }
-div .button {
-  color: white; }
+div .mountain {
+  background: url("../skateboard-images/sk8er-4.png") no-repeat center center;
+  height: 221px; }
+div .mullen {
+  background: url("../skateboard-images/sk8er-3.png") no-repeat center center;
+  height: 221px; }
+div .caballero {
+  background: url("../skateboard-images/sk8er-1.png") no-repeat center center;
+  height: 221px;
+  background-size: cover; }
+div .guerrero {
+  background: url("../skateboard-images/sk8er-2.png") no-repeat -335px center;
+  height: 442px; }
+div .skaters {
+  border: 5px solid white;
+  position: relative; }
+
+h2 {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  color: white;
+  text-transform: uppercase;
+  font-size: 52px;
+  text-align: center;
+  font-weight: bold; }
+
+.top-logo {
+  background: url("../skateboard-images/top-image.png") no-repeat center -100px;
+  height: 350px;
+  position: relative;
+  background-size: cover;
+  border: 5px solid white; }
+
+.peralta {
+  position: relative; }
+
+.top-logo::before {
+  content: "";
+  background-image: url("../skateboard-images/grid.png");
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  opacity: .35; }
 
 /*# sourceMappingURL=styles.css.map */
