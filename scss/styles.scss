@@ -13,6 +13,14 @@ body{
   background-size: cover;
 }
 
+.sm-list{
+margin-bottom: 16px;
+}
+
+.search{
+  padding: 5px;
+}
+
 ul{
   list-style: none;
 
@@ -22,6 +30,7 @@ ul{
   }
   .fa{
     font-size: 40px;
+    text-align: right;
   }
   .button{
     background-color: $Red;
@@ -29,35 +38,76 @@ ul{
     color: $White;
     text-transform: uppercase;
     padding: 10px;
-  /*FIX SHADOW*/  box-shadow: 10px 5px 5px black;
+  /*FIX SHADOW*/  box-shadow: 5px 3px 3px black;
   }
 }
 
 div{
-  .subscribe{
-    color: black;
+  .article-holder{
+    margin-top: 40px;
   }
-
+  .example{
+  background-color: white;
+  margin: 0px 0px 50px 0px;
+  }
+  .subscribe{
+    color: $White;
+  }
+  .left-article{
+    background-color: white;
+    padding: 30px;
+  }
+  .mid-article{
+    background-color: white;
+    padding: 30px;
+  }
+  .right-article{
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 40px;
+  }
   .mountain{
     background: url('../skateboard-images/sk8er-4.png')no-repeat center center;
     height: 221px;
+    background-size: cover;
   }
   .mullen{
     background: url('../skateboard-images/sk8er-3.png')no-repeat center center;
     height: 221px;
+    background-size: cover;
   }
   .caballero{
     background: url('../skateboard-images/sk8er-1.png')no-repeat center center;
     height: 221px;
     background-size: cover;
+    margin-top: 30px;
   }
   .guerrero{
     background: url('../skateboard-images/sk8er-2.png')no-repeat -335px center;
-    height: 442px;
+    height: 472px;
+    background-size: cover;
+    box-shadow: 0 4px 4px -2px #000000;
   }
   .skaters{
     border: 5px solid white;
     position: relative;
+  }
+  .board-holder{
+    background-color: white;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 20px;
+    display: block;
+    text-align: center;
+    box-shadow: 0 4px 4px -2px gray;
+  }
+  .contact{
+    background-color: white;
+  }
+  .inputs{
+    background-color: white;
+    padding: 20px;
+
   }
 
 }
@@ -73,6 +123,24 @@ h2{
   text-align: center;
   font-weight: bold;
 }
+h4{
+  font-size: 24px;
+}
+
+
+.fa-facebook-official{
+  color: #445897;
+}
+.fa-twitch{
+  color: #CC8F32;
+}
+.fa-twitter-square{
+  color: #6A8DC7;
+}
+.fa-youtube-square{
+  color: #B2382D;
+}
+
 
 .top-logo{
   background: url('../skateboard-images/top-image.png') no-repeat center -100px;
@@ -84,6 +152,7 @@ h2{
 
 .peralta {
   position: relative;
+  margin-top: 50px;
 }
 .top-logo::before {
   content: "";
@@ -96,6 +165,24 @@ h2{
   opacity: .35;
 }
 
+.read-more{
+  text-align: center;
+  display: block;
+  color: $Red;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
 .boards{
   display: inline-block;
+  padding: 20px;
+}
+
+.lorem{
+  font-size: 16px;
+}
+
+.submit{
+  text-align: right;
+  display: block;
 }
