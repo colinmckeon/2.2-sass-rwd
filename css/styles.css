@@ -5877,4 +5877,7 @@ h2 {
   position: absolute;
   opacity: .35; }
 
+.boards {
+  display: inline-block; }
+
 /*# sourceMappingURL=styles.css.map */
