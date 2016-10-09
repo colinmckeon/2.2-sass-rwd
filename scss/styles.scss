@@ -6,7 +6,7 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 
 $Red: #B4292E;
 $White: white;
-
+$Gray: gray;
 
 body{
   background: url('../skateboard-images/bg.jpg');
@@ -15,6 +15,8 @@ body{
 
 .sm-list{
 margin-bottom: 16px;
+text-align: right;
+margin-top: 30px;
 }
 
 .search{
@@ -31,7 +33,7 @@ ul{
   .fa{
     font-size: 40px;
     text-align: right;
-    box-shadow: 0 4px 4px -2px #000000;
+    box-shadow: 0 4px lighten($Gray, 20%);
 
   }
   .button{
@@ -40,7 +42,7 @@ ul{
     color: $White;
     text-transform: uppercase;
     padding: 10px;
-    box-shadow: 0 4px 4px -2px #000000;
+    box-shadow: 0 4px lighten($Gray, 20%);
   }
 }
 
@@ -51,42 +53,45 @@ div{
   .example{
   background-color: white;
   margin: 0px 0px 50px 0px;
-  box-shadow: 0 4px 4px -2px #000000;
+  box-shadow: 0 4px lighten($Gray, 20%);
 
   }
   .subscribe{
     color: $White;
+    float: left;
+    margin-top: 42px;
   }
+
   .left-article{
     background-color: white;
     padding: 30px;
-    box-shadow: 0 4px 4px -2px #000000;
+    box-shadow: 0 4px lighten($Gray, 20%);
 
   }
   .mid-article{
     background-color: white;
     padding: 30px;
-    box-shadow: 0 4px 4px -2px #000000;
+    box-shadow: 0 4px lighten($Gray, 20%);
   }
   .right-article{
     background-color: white;
     padding: 30px;
     margin-bottom: 40px;
-    box-shadow: 0 4px 4px -2px #000000;
+    box-shadow: 0 4px lighten($Gray, 20%);
 
   }
   .mountain{
     background: url('../skateboard-images/sk8er-4.png')no-repeat center center;
     height: 221px;
     background-size: cover;
-    box-shadow: 0 4px 4px -2px #000000;
+    box-shadow: 0 4px lighten($Gray, 20%);
 
   }
   .mullen{
     background: url('../skateboard-images/sk8er-3.png')no-repeat center center;
     height: 221px;
     background-size: cover;
-    box-shadow: 0 4px 4px -2px #000000;
+    box-shadow: 0 4px lighten($Gray, 20%);
 
   }
   .caballero{
@@ -94,14 +99,14 @@ div{
     height: 221px;
     background-size: cover;
     margin-top: 30px;
-    box-shadow: 0 4px 4px -2px #000000;
+    box-shadow: 0 4px lighten($Gray, 20%);
 
   }
   .guerrero{
     background: url('../skateboard-images/sk8er-2.png')no-repeat -335px center;
     height: 472px;
     background-size: cover;
-    box-shadow: 0 4px 4px -2px #000000;
+    box-shadow: 0 4px lighten($Gray, 20%);
   }
   .skaters{
     border: 5px solid white;
@@ -114,7 +119,7 @@ div{
     padding: 20px;
     display: block;
     text-align: center;
-    box-shadow: 0 4px 4px -2px #000000;
+    box-shadow: 0 4px lighten($Gray, 20%);
   }
   .contact{
     background-color: white;
@@ -144,18 +149,23 @@ h4{
 }
 
 
-.fa-facebook-official{
-  color: #445897;
+.fa-facebook{
+  color: #7583B2;
   background-color: #445897;
+  border-left-style: dotted;
+
 }
 .fa-twitch{
-  color: #CC8F32;
+  color: #D8AB6A;
+  background-color: #CC8F32;
 }
 .fa-twitter-square{
-  color: #6A8DC7;
+  color: #90A8D4;
+  background-color: #6A8DC7;
 }
 .fa-youtube-square{
-  color: #B2382D;
+  color: #C16A5F;
+  background-color:#B2382D;
 }
 
 
@@ -166,7 +176,7 @@ h4{
   background-size: cover;
   border: 5px solid white;
   margin-top: 15px;
-  box-shadow: 0 4px 4px -2px #000000;
+  box-shadow: 0 4px lighten($Gray, 20%);
 
 }
 
@@ -213,8 +223,5 @@ h4{
 .submit{
   float: right;
   display: block;
-  width: 50%;
-  position: absolute;
-  right: 20px;
-
+  width: 248px;
 }

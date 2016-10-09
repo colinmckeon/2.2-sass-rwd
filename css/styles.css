@@ -5813,7 +5813,9 @@ body {
   background-size: cover; }
 
 .sm-list {
-  margin-bottom: 16px; }
+  margin-bottom: 16px;
+  text-align: right;
+  margin-top: 30px; }
 
 .search {
   padding: 5px; }
@@ -5825,57 +5827,59 @@ ul {
   ul .fa {
     font-size: 40px;
     text-align: right;
-    box-shadow: 0 4px 4px -2px #000000; }
+    box-shadow: 0 4px #b3b3b3; }
   ul .button {
     background-color: #B4292E;
     text-align: center;
     color: white;
     text-transform: uppercase;
     padding: 10px;
-    box-shadow: 0 4px 4px -2px #000000; }
+    box-shadow: 0 4px #b3b3b3; }
 
 div .article-holder {
   margin-top: 40px; }
 div .example {
   background-color: white;
   margin: 0px 0px 50px 0px;
-  box-shadow: 0 4px 4px -2px #000000; }
+  box-shadow: 0 4px #b3b3b3; }
 div .subscribe {
-  color: white; }
+  color: white;
+  float: left;
+  margin-top: 42px; }
 div .left-article {
   background-color: white;
   padding: 30px;
-  box-shadow: 0 4px 4px -2px #000000; }
+  box-shadow: 0 4px #b3b3b3; }
 div .mid-article {
   background-color: white;
   padding: 30px;
-  box-shadow: 0 4px 4px -2px #000000; }
+  box-shadow: 0 4px #b3b3b3; }
 div .right-article {
   background-color: white;
   padding: 30px;
   margin-bottom: 40px;
-  box-shadow: 0 4px 4px -2px #000000; }
+  box-shadow: 0 4px #b3b3b3; }
 div .mountain {
   background: url("../skateboard-images/sk8er-4.png") no-repeat center center;
   height: 221px;
   background-size: cover;
-  box-shadow: 0 4px 4px -2px #000000; }
+  box-shadow: 0 4px #b3b3b3; }
 div .mullen {
   background: url("../skateboard-images/sk8er-3.png") no-repeat center center;
   height: 221px;
   background-size: cover;
-  box-shadow: 0 4px 4px -2px #000000; }
+  box-shadow: 0 4px #b3b3b3; }
 div .caballero {
   background: url("../skateboard-images/sk8er-1.png") no-repeat center center;
   height: 221px;
   background-size: cover;
   margin-top: 30px;
-  box-shadow: 0 4px 4px -2px #000000; }
+  box-shadow: 0 4px #b3b3b3; }
 div .guerrero {
   background: url("../skateboard-images/sk8er-2.png") no-repeat -335px center;
   height: 472px;
   background-size: cover;
-  box-shadow: 0 4px 4px -2px #000000; }
+  box-shadow: 0 4px #b3b3b3; }
 div .skaters {
   border: 5px solid white;
   position: relative; }
@@ -5886,7 +5890,7 @@ div .board-holder {
   padding: 20px;
   display: block;
   text-align: center;
-  box-shadow: 0 4px 4px -2px #000000; }
+  box-shadow: 0 4px #b3b3b3; }
 div .contact {
   background-color: white; }
 div .inputs {
@@ -5909,18 +5913,22 @@ h2 {
 h4 {
   font-size: 24px; }
 
-.fa-facebook-official {
-  color: #445897;
-  background-color: #445897; }
+.fa-facebook {
+  color: #7583B2;
+  background-color: #445897;
+  border-left-style: dotted; }
 
 .fa-twitch {
-  color: #CC8F32; }
+  color: #D8AB6A;
+  background-color: #CC8F32; }
 
 .fa-twitter-square {
-  color: #6A8DC7; }
+  color: #90A8D4;
+  background-color: #6A8DC7; }
 
 .fa-youtube-square {
-  color: #B2382D; }
+  color: #C16A5F;
+  background-color: #B2382D; }
 
 .top-logo {
   background: url("../skateboard-images/top-image.png") no-repeat center -100px;
@@ -5929,7 +5937,7 @@ h4 {
   background-size: cover;
   border: 5px solid white;
   margin-top: 15px;
-  box-shadow: 0 4px 4px -2px #000000; }
+  box-shadow: 0 4px #b3b3b3; }
 
 .peralta {
   position: relative;
@@ -5968,8 +5976,6 @@ h4 {
 .submit {
   float: right;
   display: block;
-  width: 50%;
-  position: absolute;
-  right: 20px; }
+  width: 248px; }
 
 /*# sourceMappingURL=styles.css.map */
