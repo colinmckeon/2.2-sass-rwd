@@ -154,6 +154,34 @@ h4{
   font-size: 24px;
 }
 
+#skaterSection{
+  position: relative;
+}
+
+.arrow{
+  width: 238px;
+  height: 98px;
+  background-color: #B4292E;
+  position: absolute;
+  left: -240px;
+}
+
+#skatersArrow{
+  color: white;
+  margin-top: 38px;
+}
+
+.arrow::before{
+  content: "";
+  display: block;
+  height: 0;
+  width: 0;
+  border: 49px solid transparent;
+  border-left-color: #B4292E;
+  position: absolute;
+  right: -98px;
+}
+
 
 .fa-facebook{
   color: #7583B2;
