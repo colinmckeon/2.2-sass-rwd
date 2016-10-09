@@ -5820,6 +5820,9 @@ body {
 .search {
   padding: 5px; }
 
+#circle {
+  font-size: 10px; }
+
 ul {
   list-style: none; }
   ul .social-media {
@@ -5845,7 +5848,9 @@ div .example {
 div .subscribe {
   color: white;
   float: left;
-  margin-top: 42px; }
+  margin-top: 45px;
+  padding-left: 25px;
+  font-size: 12px; }
 div .left-article {
   background-color: white;
   padding: 30px;
@@ -5916,7 +5921,8 @@ h4 {
 .fa-facebook {
   color: #7583B2;
   background-color: #445897;
-  border-left-style: dotted; }
+  border-left-style: dotted;
+  width: 37px; }
 
 .fa-twitch {
   color: #D8AB6A;

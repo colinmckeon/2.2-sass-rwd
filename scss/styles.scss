@@ -23,6 +23,10 @@ margin-top: 30px;
   padding: 5px;
 }
 
+#circle{
+  font-size: 10px;
+}
+
 ul{
   list-style: none;
 
@@ -59,7 +63,9 @@ div{
   .subscribe{
     color: $White;
     float: left;
-    margin-top: 42px;
+    margin-top: 45px;
+    padding-left: 25px;
+    font-size: 12px;
   }
 
   .left-article{
@@ -153,6 +159,7 @@ h4{
   color: #7583B2;
   background-color: #445897;
   border-left-style: dotted;
+  width: 37px;
 
 }
 .fa-twitch{
