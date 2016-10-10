@@ -5837,7 +5837,8 @@ ul {
     color: white;
     text-transform: uppercase;
     padding: 10px;
-    box-shadow: 0 4px #b3b3b3; }
+    box-shadow: 0 4px #b3b3b3;
+    display: block; }
 
 div .article-holder {
   margin-top: 40px; }
